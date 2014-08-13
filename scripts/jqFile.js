@@ -139,6 +139,10 @@ $(document).ready(function(){
     $('#background').removeClass('wiggler');
   });
 
-  $( ".alert" ).draggable();
+    $( ".alert" ).draggable();
+  } else {
+    $('#svg').click(function(){
+      window.location.replace('https://vimeo.com/101738328');
+    });
   }
 });
