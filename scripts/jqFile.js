@@ -62,7 +62,7 @@ $(document).ready(function(){
   /////////////////////////////
   /////// START JQ CODE
   /////////////////////////////
-
+  if (window.innerWidth >= 800) {
   var alerted = false;
 
   $('#svg').hover(
@@ -140,5 +140,5 @@ $(document).ready(function(){
   });
 
   $( ".alert" ).draggable();
-
+  }
 });
