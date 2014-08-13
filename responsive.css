@@ -25,31 +25,31 @@
     z-index: 50;
     position: absolute;
     left: 0;
-    margin-left: -75px;
+    margin-left: -50px;
     top: 250px;
   }
 
   nav ul {
-    text-align: left;
+    /*text-align: left;*/
     list-style:none;
-    width: 100%;
+    width: 99%;
     /*width: 80%;*/
-    /*background-color: green;*/
+
   }
 
   nav ul li {
-    text-align: left;
+    text-align: center;
 
-    width: 100%;
-    background-color: black;
-    margin: 0 5px 5px 0;
-    /*background-color: red;*/
+    width: 99%;
+
+    margin: 0 0 5px 0;
+
   }
 
   nav ul li a {
     display:inline-block;
-    width: 100%;
-    margin-left:20px;
+    width: 250px;
+    margin-left: 20px;
     text-align: center;
   }
 
