@@ -65,6 +65,11 @@ $(document).ready(function(){
 
   var alerted = false;
 
+  $('.close-popin').on('click',function(e){
+    $('.popin').fadeOut();
+  });
+
+
   $('#svg').hover(
     function() {
 
