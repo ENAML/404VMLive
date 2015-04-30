@@ -1,35 +1,56 @@
-@media screen and (max-width: 640px) {
-
+@media screen and (max-width: 800px) {
 
   body {
-    font-size:25px;
-    background-color: #000;
+    overflow-x:hidden;
+    max-width:100%;
+  }
+
+  #text {
+    display:none;
   }
 
   #title {
-    font-size: 40px;
-    color: #fff;
-  }
-
-  #comingsoon {
     font-size: 20px;
-    color: #fff;
   }
 
-  .email {
-    font-size: 60px;
-    display: inline;
-    top: 200px;
+  #svg {
+    position: absolute;
+    top: 0px;
+    height: 350px;
+    left: 0;
   }
 
-  #background {
-    display: none;
-    opacity: .1%;
+  nav {
+    width: 100%;
+    z-index: 50;
+    position: absolute;
+    left: 0;
+    margin-left: -50px;
+    top: 250px;
   }
 
-  .four04, .four04vm{
-    opacity: .1%;
-    display: none;
+  nav ul {
+    /*text-align: left;*/
+    list-style:none;
+    width: 99%;
+    /*width: 80%;*/
+
+  }
+
+  nav ul li {
+    text-align: center;
+
+    width: 99%;
+
+    margin: 0 0 5px 0;
+
+  }
+
+  nav ul li a {
+    display:inline-block;
+    width: 250px;
+    margin-left: 20px;
+    text-align: center;
   }
 
 
@@ -38,3 +59,4 @@
   }
 
 }
+

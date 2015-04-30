@@ -62,11 +62,11 @@ $(document).ready(function(){
   /////////////////////////////
   /////// START JQ CODE
   /////////////////////////////
-
+  if (window.innerWidth >= 800) {
   var alerted = false;
 
   $('.close-popin').on('click',function(e){
-    $('.popin').fadeOut();
+    $('.popin').hide();
   });
 
 
@@ -144,6 +144,10 @@ $(document).ready(function(){
     $('#background').removeClass('wiggler');
   });
 
-  $( ".alert" ).draggable();
-
+    $( ".alert" ).draggable();
+  } else {
+    $('#svg').click(function(){
+      window.location.replace('https://vimeo.com/101738328');
+    });
+  }
 });
