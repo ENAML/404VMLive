@@ -66,6 +66,7 @@ $(document).ready(function(){
   var alerted = false;
 
   $('.close-popin').on('click',function(e){
+    console.log('click');
     $('.popin').hide();
   });
 

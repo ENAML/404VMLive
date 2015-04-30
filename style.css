@@ -200,6 +200,7 @@ nav ul li a:hover {
   right: 0;
   bottom: 0;
   background-color:black;
+  display:table;
 }
 
 .close-popin {
@@ -214,14 +215,16 @@ nav ul li a:hover {
   cursor:pointer;
 }
 
+
 .popin-img {
   height: 75%;
   max-height: 700px;
   width: auto;
-  top: 50%;
+  left:0;
+  right:0;
+  margin:0 auto;
   position: absolute;
-  left: 50%;
-  transform: translate(-50%,-50%);
+  top:10%;
 }
 
 .rsvp {
@@ -238,15 +241,6 @@ nav ul li a:hover {
   color:#0000ff;
 }
 
-
-img {
-  image-rendering: optimizeSpeed;       /* FUCK SMOOTHING, GIVE ME SPEED */
-  image-rendering: -moz-crisp-edges;          /* Firefox    */
-  image-rendering: -o-crisp-edges;             /*Opera    */
-  image-rendering: -webkit-optimize-contrast; /* Chrome and eventually Safari */
-  image-rendering: optimize-contrast;         /* CSS3 Proposed   */
-  -ms-interpolation-mode: nearest-neighbor;   /* IE8+   */
-}
 
 /* safari and chrome */
 @-webkit-keyframes wiggle {

@@ -53,8 +53,12 @@
     text-align: center;
   }
 
+  .popin{
+    z-index: 99;
 
+  }
   .popin-img {
+    top:15%;
     height: 50%;
   }
 
